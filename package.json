@@ -1,0 +1,31 @@
+{
+  "name": "cab",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "^3.4.8",
+    "jade": "~1.3.0",
+    "morgan": "~1.0.0",
+    "mysql": "file:mysql",
+    "static-favicon": "~1.0.0"
+  },
+  "description": "Cab Project : It is call taxi method.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "cab"
+  },
+  "keywords": [
+    "call",
+    "taxi"
+  ],
+  "author": "Indu",
+  "license": "ISC"
+}
